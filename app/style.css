@@ -12,6 +12,14 @@ img {
 
 }
 
+.show {
+
+}
+
+.clear {
+  display: none;
+}
+
 /* Overriding Materialize defaults */
 
 .red {
