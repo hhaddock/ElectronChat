@@ -1,6 +1,5 @@
 h1, h3 {
   font-family: 'Concert One', cursive;
-
 }
 
 img {
@@ -39,15 +38,6 @@ img {
   background-color: black
   !important;
 }
-
-.full-width {
-  height: 100vh;
-}
-
-
-
-
-
 
 
 /* Overridden Semantic UI */

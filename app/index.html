@@ -8,6 +8,8 @@
     <script src="semantic/semantic.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- UIkit CSS -->
@@ -33,19 +35,19 @@
             <br><br>
 
             <div class="title center">
-              <button class="ui inverted red button"><i class="comment outline icon"></i>Channels</button>
+              <button class="ui inverted red button"><i class="comment outline icon"></i>Text</button>
             </div>
 
             <hr class="divider">
 
             <div class="title center">
-              <button class="ui inverted teal button"><i class="microphone icon"></i>Channels</button>
+              <button class="ui inverted teal button"><i class="microphone icon"></i>Voice</button>
             </div>
 
               <hr class="divider">
 
             <div class="title center">
-              <button class="ui inverted purple button"><i class="id badge outline icon"></i>Channels</button>
+              <button class="ui inverted purple button"><i class="id badge outline icon"></i>Profile</button>
             </div>
 
               <hr class="divider">
@@ -55,16 +57,56 @@
             </div>
           </div>
         </div>
-        <div class="col s6">
-          <h1 class="center red-text">Good Morning Griffin!</h1>
-        </div>
+            <div class="col s6">
+              <a class="weatherwidget-io" href="https://forecast7.com/en/38d95n92d33/columbia/?unit=us" data-label_1="COLUMBIA" data-label_2="WEATHER" data-font="Roboto Slab" data-icons="Climacons Animated" data-theme="original" data-basecolor="#ffffff" data-textcolor="#000000" data-highcolor="#f70505" data-lowcolor="#226dda" data-suncolor="#faaa05" data-cloudcolor="#000000" data-cloudfill="#ffffff" data-raincolor="#3381f2" >COLUMBIA WEATHER</a>
+            </div>
+
         <div class="col s3">
           <div class="ui inverted right fixed vertical menu">
             <br><br>
             <div class="title center">
-              <button class="ui inverted green button"><i class="users icon"></i>Channels</button>
+              <button class="ui inverted green button"><i class="users icon"></i>Friends</button>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s3">
+
+        </div>
+        <div class="col s3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <h1 class="center black-text">New Event Coming!</h1>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Event #1<i class="material-icons right">more_vert</i></span>
+              <h3 class="center black-text">Created by Devin</h3>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Time to play vidya at 6:00pm 8/14</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <h1 class="center black-text">New Event Coming!</h1>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Event #2<i class="material-icons right">more_vert</i></span>
+              <h3 class="center black-text">Created by Devin</h3>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Time to play vidya at 6:00pm 8/14</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+
         </div>
       </div>
 
@@ -74,9 +116,7 @@
 
   <script>
 
-  $('.ui.accordion')
-    .accordion();
-
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
   </script>
   </body>
 </html>
