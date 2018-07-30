@@ -6,27 +6,59 @@
     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="semantic/semantic.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
     <title>Hangout</title>
   </head>
   <body>
+      <div class="ui inverted segment">
+        <div class="ui left fixed vertical menu inverted">
+          <div class="item">
+            <img class="ui mini image" src="images/logo1.png">
+          </div>
+            <a class="item">Profile</a>
+            <a class="item">Join a Lobby</a>
+            <a class="item">Settings</a>
+        </div>
+        <div class="ui right fixed vertical menu inverted">
+          <br>
 
-<div class="ui left fixed vertical menu">
-  <div class="item">
-    <img class="ui mini image" src="images/logo1.png">
+          <div class="ui inverted accordion">
+            <div class="title center">
+                <i class="users icon"></i>
+                Friends
+            </div>
+              <div class="content inverted">
+                <p>poopdick<p>
+              </div>
+          </div>
+          <div class="ui divider"></div>
+          <div class="ui inverted accordion">
+            <div class="title center">
+              <i class="comments icon"></i>
+              Channels
+            </div>
+          </div>
+      </div>
+
   </div>
-  <a class="item">Features</a>
-  <a class="item">Testimonials</a>
-  <a class="item">Sign-in</a>
-</div>
-<div class="ui right fixed vertical menu">
-  <div class="item">
-    <img class="ui mini image" src="images/logo1.png">
+
+  <div class="uk-position-center uk-overlay uk-overlay-default">
+    <p class="flow-text">Whoops! Looks like you haven't joined a channel yet!</p>
   </div>
-  <a class="item">Features</a>
-  <a class="item">Testimonials</a>
-  <a class="item">Sign-in</a>
-</div>
-<p></p>
-<p></p>
+
+
+
+  <script>
+  $('.ui.accordion')
+    .accordion();
+  </script>
   </body>
 </html>
