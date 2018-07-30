@@ -5,3 +5,38 @@ h3 {
 img {
   vertical-align: middle;
 }
+
+.divider {
+
+  opacity: 0.2;
+
+}
+
+/* Overriding Materialize defaults */
+
+.red {
+  background-color: black
+  !important;
+}
+
+.teal {
+  background-color: black
+  !important;
+}
+
+.purple {
+  background-color: black
+  !important;
+}
+
+.blue {
+  background-color: black
+  !important;
+}
+
+.green {
+  background-color: black
+  !important;
+}
+
+/* Overridden Semantic UI */
